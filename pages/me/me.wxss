@@ -1,0 +1,75 @@
+/* pages/me/me.wxss */
+
+  
+.me{
+  border:rgb(201, 201, 201) solid 5rpx;
+  border-radius: 3%;
+  margin: 20rpx;
+  margin-bottom: 100rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+.myinfo{
+  width: 40%;
+}
+.tx{
+  width: 25%;
+  margin: 50rpx;
+}
+.tx2{
+  width: 100%;
+}
+.name{
+  font-size: x-large;
+}
+.td{
+  width: 60%;
+}
+.tdinfo{
+  width: 50%;
+  border-top:rgb(141, 141, 141) solid 2rpx;
+  border-right:rgb(201, 201, 201) solid 5rpx;
+  font-size: x-large;
+  line-height: 75rpx;
+}
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.wallet{
+  border:rgb(201, 201, 201) solid 5rpx;
+  border-radius: 3%;
+  margin: 20rpx;
+  margin-bottom: 100rpx;
+  height: 200rpx;
+  background-color: #fff;
+}
+.moneyinfo{
+  margin: 30rpx;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.text2{
+  margin:20rpx;
+  font-size: larger;
+}
+.bt{
+  position: absolute;
+  right: 80rpx;
+}
+.dr{
+  border:rgb(201, 201, 201) solid 5rpx;
+  border-radius: 3%;
+  margin: 20rpx;
+  margin-bottom: 100rpx;
+  height: 200rpx;
+  background-color: #fff;
+}
+.exit{
+  color: #fff;
+  margin-top: 280rpx;
+}

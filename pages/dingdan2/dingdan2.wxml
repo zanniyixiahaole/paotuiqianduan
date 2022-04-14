@@ -1,0 +1,19 @@
+<!--pages/dingdan2/dingdan2.wxml-->
+<view class="map1"><!--地图-->
+<image src="http://a1.qpic.cn/psc?/V50Hxh2S2Tl1fo0VDrH43W2PaE3jKsOq/ruAMsa53pVQWN7FLK88i5pLLERAMAhEWW3dUexKRsiB8YhHTUQpsi6VxR9l87JS*bd50LqmgcjD0AUH*vNR5rNEHl9B9U3OplcHYubKlGGI!/b&ek=1&kp=1&pt=0&bo=OAQkCTgEJAkRECc!&tl=1&vuin=1123043091&tm=1608444000&sce=60-2-2&rf=viewer_311" mode="aspectFill" class="map"></image>
+</view>
+<text>\n</text>
+<view class="ps">
+  <view class="tx"><!--头像-->
+        <image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3155998395,3600507640&fm=26&gp=0.jpg" mode="widthFix"class="tx2"></image>
+  </view>
+  <view>
+    <view class="name">跑腿一号</view>
+    <button size="mini" class="phone" plain="true">联系他</button>
+  </view>
+</view>
+<view class="state">正在全速为您奔跑</view>
+<view class="time">
+  <view class="time2">  预计15分钟后送达</view>
+  <view class="cui"><button size="mini" plain="true" >催单</button></view>
+</view>

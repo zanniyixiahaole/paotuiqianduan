@@ -1,0 +1,82 @@
+/* pages/dingdan/dingdan.wxss */
+
+.caidan{
+  display: flex;
+  height: 80rpx;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 2rpx solid #ddd;
+  border-bottom: 2rpx solid #ddd;
+  font-size: 11pt;
+  color: black;
+}
+.caidan1{
+  color: #bdbdbd;
+}
+
+.blank{
+  height: 160rpx;
+}
+.item{
+  border: solid rgb(212, 212, 212) 3rpx;
+  margin:50rpx;
+  margin-bottom:50rpx;
+  background-color: #fff;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx;
+}
+.tx{
+  width: 25%;
+  border: rgb(51, 51, 51);
+  height: 300rpx;
+}
+.tx2{
+  width: 100%;
+  border: rgb(51, 51, 51);
+}
+.textinfo{
+  font-size: larger;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.textclass{
+  font-size:28rpx;
+}
+
+
+.toOK{
+  width: 100%;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.check{
+  margin-left: 20rpx;
+  background-color: rgb(241, 241, 241);
+  width: 35%;
+  height: 60rpx;
+  border-radius: 5%;
+}
+.OK{
+  width: 100%;
+  font-size: larger;
+  line-height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20rpx;
+  margin-left:20rpx ;
+}

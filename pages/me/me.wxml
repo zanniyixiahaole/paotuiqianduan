@@ -1,0 +1,31 @@
+<!--pages/me/me.wxml--> 
+
+<view class="me"><!--今日信息-->
+  <view class="myinfo">
+    <view class="tx"><open-data type="userAvatarUrl"></open-data></view>
+    <view class="name"  ><open-data type="userNickName"></open-data><view>{{name}}</view></view>
+  </view>
+  <view class="td">
+    <view class="tdinfo"><view class="center"><navigator url="/pages/dingdan/dingdan">我的订单</navigator></view><view class="center">{{}}</view></view>
+    <view class="tdinfo"><view class="center"  >今日收入</view><view class="center">{{}}</view></view>
+  </view>
+</view>
+<view class="wallet"><!--钱包-->
+    <view style="font-size:x-large ;margin:20rpx">我的钱包</view>
+    <view class="moneyinfo">
+      <view class="text2">余额:</view>
+      <view class="text2">99999</view>
+      <view class="bt">
+        <button size="mini"  plain="true" type="primary">提现</button>
+        <button size="mini" plain="true"  type="warn">充值</button>
+      </view>
+    </view>
+</view>
+<view class="dr"><!--地址-->
+  <view style="font-size:larger; margin:20rpx">我的地址：</view>
+  <view style=" margin:20rpx">杭州电子科技大学生活区12号</view>
+</view>
+
+<view  class="exit">
+  <button bindtap="exit" type="warn" plain="ture" >退出登录</button>
+</view>

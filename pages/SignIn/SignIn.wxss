@@ -1,0 +1,6 @@
+/* pages/SignIn/SignIn.wxss */
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

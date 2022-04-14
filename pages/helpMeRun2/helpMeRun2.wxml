@@ -1,0 +1,55 @@
+<!--pages/helpMeRun/helpMeRun.wxml-->
+
+  <view class="dr">
+    <view class="dr2">
+      <view class="start">始</view>
+      <input class="inputText" value="{{start}}" placeholder="请选择起始地址" bindtap="startinput"/> 
+    </view>
+    <view  class="dr2">
+      <view class="start">达</view>
+      <input class="inputText" value="{{destination}}" placeholder="请选择接收地址" bindtap="destinationinput"/> 
+    </view>
+  </view>
+
+  <view>
+  <view  class="info">
+      <text>\n</text>
+      <view class="deinfo"> <!--规格，价钱-->
+        <view>物品规格：</view>
+        <button size="mini" bindtap="priceinput" data-name="5" type="{{type1}}" >常规</button>
+        <button size="mini" bindtap="priceinput" data-name="10"type="{{type2}}">大件</button>
+        <text>\n</text>
+        
+        <view class="inputview">
+          <label class=textLab">支付价格:</label>
+          <input class="inputinfo" value="{{price}}"type="number" bindinput="pricein"/>
+        </view>
+      </view>
+      
+      <view class="deinfo"><!--取件码-->
+        <text>\n</text>
+        <label>请输入取件码</label>
+        <text>\n</text>
+        <input placeholder="例如1-1-1或者12321"/> 
+        <view>
+          <button size="mini">点击上传图片</button>
+        </view>
+      </view>
+      
+    <view class="deinfo"> <!-- 截止时间 -->
+        <view>截止时间</view>
+        
+        <picker mode="time" value="now" bindchange="deadl" >{{deadline}}</picker>
+
+    </view>
+    <view class="deinfo">
+      <view>验证码</view>
+      <input class="check" placeholder="请自定义验证码，用于验证收货" type="number" bindinput="checknum"/>
+    </view>
+    
+      
+    </view>
+    <text>\n</text>
+    <text>\n</text>
+    <button type="primary" bindtap="wxpay" form-type="submit">去支付</button>
+  </view>

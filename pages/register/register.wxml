@@ -1,0 +1,29 @@
+<!--pages/register/register.wxml-->
+<view class="container"> 
+  <view class="c-minheight wx-view_mQUDQh" data-c_e_id="wx_view_8e2f68f0">
+    <image class="wx-image_n7KDdY" data-c_e_id="wx_image_559fd6be" mode="widthFix" src="../../pic/school.jpg" style=" background-size:  100% 100%; background-position:  0% 0%; background-repeat:  no-repeat; background-image: url(https://z3.ax1x.com/2021/10/05/4vAZ0e.jpg); "/>
+  </view>
+
+
+  <view class="login-from"> 
+    <view class="inputView">
+      <label class="loginLab">用户名：</label>
+      <input class="inputText"value="{{username}}"   placeholder="请输入用户名" bindinput="phoneInput"/>
+      
+    </view>
+    <view class="line"></view> 
+    <view class="inputView">
+      <label class="loginLab"value="{{password}}">密码：</label>
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput"/>
+    </view>
+    <view class="line"></view> 
+    <view class="inputView">
+      <label class="loginLab"value="{{password2}}">确认密码：</label>
+      <input class="inputText" password="true" placeholder="请确认密码" bindinput="password2Input"/>
+    </view>
+    
+    <view>
+      <button type="primary" style="margin-top:40rpx" bindtap="register">注册</button>
+    </view>
+  </view> 
+</view> 

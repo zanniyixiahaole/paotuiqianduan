@@ -1,0 +1,40 @@
+/* pages/helpOthers3/helpOthers3.wxss */
+.item{
+  display: flex;
+  flex-direction:row;
+}
+.type{
+  border-radius: 50%;
+  width: 150rpx;
+  height: 150rpx;
+  border: black 1rpx solid;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: larger;
+}
+.info{
+  width: 80%;
+  border: solid black 2rpx;
+  line-height: 80rpx;
+  font-size: larger;
+}
+.fline{
+  display: flex;
+  flex-direction: row;
+}
+
+.map1{
+  border: black solid 2rpx;
+}
+.map{
+  width: 100%;
+  height:600rpx;
+}
+.phone{
+  width: 100%;
+  display: flex;
+}
+.but{
+  position: absolute;
+  right: 0;
+}

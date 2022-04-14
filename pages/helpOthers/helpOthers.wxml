@@ -1,0 +1,75 @@
+<!--pages/helpOthers/helpOthers.wxml-->
+<text>\n</text>
+<view class="item">
+  <view class="type">帮我送</view>
+  <view class="info">
+    <view class="fline">
+      <view class="dr">
+        <view>起：生活区12楼底</view>
+        <view>达：6教北202</view>
+      </view>
+      <view class="jiedan"><button class="bt"><navigator url="/pages/helpOthers2/helpOthers2">接单</navigator></button></view>
+    </view>
+    <text>\n</text>
+    <view class="sline">跑腿费：  5元</view>
+    <view class="tline">物品描述： 一本书</view>
+    <view class="foline">截止时间：今晚6点</view>
+  </view>
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="item">
+  <view class="type">帮我取</view>
+  <view class="info">
+    <view class="fline">
+      <view class="dr">
+        <view>起：5号楼菜鸟驿站</view>
+        <view>达：23楼</view>
+      </view>
+      <view class="jiedan"><button class="bt">接单</button></view>
+    </view>
+    <text>\n</text>
+    <view class="sline">跑腿费：  5元</view>
+    <view class="tline">物品描述： 一本书</view>
+    <view class="foline">截止时间：今晚6点</view>
+  </view>
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="item">
+  <view class="type">帮我买</view>
+  <view class="info">
+    <view class="fline">
+      <view class="dr">
+        <view>起：第6教学楼北402</view>
+        <view>达：行政楼</view>
+      </view>
+      <view class="jiedan"><button class="bt">接单</button></view>
+    </view>
+    <text>\n</text>
+    <view class="sline">跑腿费：  5元</view>
+    <view class="tline">物品描述： 一本书</view>
+    <view class="foline">截止时间：今晚6点</view>
+  </view>
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="item">
+  <view class="type">帮我送</view>
+  <view class="info">
+    <view class="fline">
+      <view class="dr">
+        <view>起：生活区12楼底</view>
+        <view>达：6教北202</view>
+      </view>
+      <view class="jiedan"><button class="bt">接单</button></view>
+    </view>
+    <text>\n</text>
+    <view class="sline">跑腿费：  5元</view>
+    <view class="tline">物品描述： 一本书</view>
+    <view class="foline">截止时间：今晚6点</view>
+  </view>
+</view>

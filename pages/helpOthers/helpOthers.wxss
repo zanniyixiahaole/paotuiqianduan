@@ -1,0 +1,28 @@
+/* pages/helpOthers/helpOthers.wxss */
+.item{
+  display: flex;
+  flex-direction:row;
+}
+.type{
+  border-radius: 50%;
+  width: 150rpx;
+  height: 150rpx;
+  border: black 1rpx solid;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: larger;
+}
+.info{
+  width: 80%;
+  border: solid black 2rpx;
+}
+.fline{
+  display: flex;
+  flex-direction: row;
+}
+.bt{
+  height: 100rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size:x-large;
+}

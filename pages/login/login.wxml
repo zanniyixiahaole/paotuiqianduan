@@ -1,0 +1,26 @@
+<!--pages/login/login.wxml-->
+<!-- <view wx:if="{{isHide}}">
+  <view wx:if="{{canIUse}}"> -->
+
+  
+<view class="container">
+  
+ 
+<!-- 需要使用 button 来授权登录 -->
+  
+  
+  <open-data type="userAvatarUrl"></open-data>
+  <open-data type="userNickName"></open-data>
+<!-- <view>
+  <text>请允许获得您的公开信息以及手机号码</text>
+</view> -->
+
+  <button  open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" style="margin:60rpx" type="primary">授权登录</button>
+  <!-- <button class="{{flag?'show':'hide'}}" type="primary" open-type="getUserInfo"bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <button class="{{flag?'hide':'show'}}" type="primary" open-type="getPhoneNumber"  bindgetphonenumber="getPhoneNumber">手机号授权</button> -->
+ 
+</view> 
+
+<!-- </view>
+<view wx:else>请升级微信版本</view>
+</view> -->

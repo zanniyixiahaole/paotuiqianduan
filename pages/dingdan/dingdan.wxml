@@ -1,0 +1,49 @@
+<!--pages/dingdan/dingdan.wxml-->
+
+<view class="caidan">
+  <view class="caidan1">我下的单</view>
+  <view class="caidan2"><navigator url="/pages/myjiedan/myjiedan">我接的单</navigator></view>
+</view>
+<block wx:for="{{list}}" wx:for-item="items" wx:key="key">
+  <view class="item">
+    <view class="info">
+      <view class="tx">
+        <image src=""  mode="widthFix" class="tx"></image>
+        </view>
+      <view class="textinfo">
+        <view>起：{{items.start}}</view>
+        <view>达：{{items.destination}}</view>
+        <view>跑腿人：{{items.name}}</view>
+        <view>跑腿费：{{items.price}}</view>
+        <view>发布时间：{{items.starttime}}</view>
+        <view>截止时间：{{items.deadline}}</view>
+         
+        
+      </view>
+      
+    </view>
+    <view class="state"><button   data-id="{{items.id}}"  class="bt" size="mini" type="primary" plain="true" >正在为您跑腿</button></view>
+  </view>
+ </block>
+<block wx:for="{{list1}}" wx:for-item="items" wx:key="key">
+  <view class="item">
+    <view class="info">
+      <view class="tx">
+        <image src=""  mode="widthFix" class="tx"></image>
+        </view>
+      <view class="textinfo">
+        <view>起：{{items.start}}</view>
+        <view>达：{{items.destination}}</view>
+        <view>跑腿人：{{items.name}}</view>
+        <view>跑腿费：{{items.price}}</view>
+        <view>发布时间：{{items.starttime}}</view>
+        <view>截止时间：{{items.deadline}}</view>
+         
+        
+      </view>
+      
+    </view>
+    <view class="state"><button   data-id="{{items.id}}"  class="bt" size="mini" type="primary" plain="true" >订单已完成</button></view>
+  </view>
+ </block>
+

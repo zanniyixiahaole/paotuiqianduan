@@ -1,0 +1,38 @@
+<view class="payWay-container">
+  <view class="pay-container">
+    <form bindsubmit="moneySubmit">
+      <view class="pay-title">支付</view>
+      <view>
+        <view class="pay-content">
+          <text style="width: 30%">跑腿服务</text>
+          <input class="pay-content-right detail" name="des" disabled='true' value="{{des}}"></input>
+        </view>
+        <view class="pay-content">
+          <text>微信用户</text>
+          <input class="pay-content-right name" name="nickName" disabled='true' value='{{nickName}}'></input>
+        </view>
+        <view class="pay-content">
+          <text>支付方式</text>
+          <input class="pay-content-right name" name="nickName" disabled='true' value='{{payType}}'></input>
+        </view>
+        <view class="pay-content">
+          <text>支付金额</text>
+          <input class="pay-content-right price" placeholder='请输入金额/元' name="price" value='{{price}}'></input>
+        </view>
+      </view>
+      <view class="pay-btn">
+        <view catchtap="channelSelect" class="btns">取消</view>
+        <button formType="submit" class="btns submit" data-submit="true">立即支付</button>
+      </view>
+    </form>
+  </view>
+  <couponComponent bind:selectChange="selectChange" bindcouponInfo="couponInfo" bindhideUserCouponList="hideUserCouponList" bindtoggleModule="toggleCouponModule" productInfo="{{productInfo}}" selectIdx="{{selectIdx}}" showUserCoupons="{{hideListShowCode}}"
+    userCoupons="{{userCoupons}}" wx:if="{{showCouponModule&&!error}}"></couponComponent>
+  <view class="pay-container order-fail" wx:if="{{error}}">
+    <view wx:if="{{!errMsg}}"> 订单提交失败，请稍后重试！</view>
+    <view wx:if="{{errMsg}}"> {{errMsg}}</view>
+    <view bindtap="channelSelect" class="coupon-submit">确定</view>
+  </view>
+  <loading loading="{{loading}}" wx:if="{{loading.state}}"></loading>
+</view>
+

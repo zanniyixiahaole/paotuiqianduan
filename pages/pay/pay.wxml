@@ -1,0 +1,4 @@
+<!--pages/pay/pay.wxml-->
+<view>
+<button bindtap='wxpay' class='css'>发起支付</button>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/sjSignIn/sjSignIn.wxml-->
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="logo" >
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606648525988&di=c818f68025d1158aa12935c73a8a1c17&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171031%2F6053db72857c4d47a240524b35f07ac4.jpeg" >
+  </image>
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="shuru">
+  <label>手机号：</label>
+  <input placeholder="请输入手机号"type="number"/>
+  <button size="mini" style="position:fixed;right:0">获取验证码</button>
+  <text>\n</text>
+  <label>验证码：</label>
+  <input placeholder="请输入验证码" type="number"/>
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view>
+  <button type="primary">登录</button>
+</view>
+<text>\n</text>
+<view class="bt" >
+  <button type="default" >< navigator url="/pages/register/register">注册账户</navigator></button>
+</view>

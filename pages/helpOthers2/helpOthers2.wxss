@@ -1,0 +1,13 @@
+/* pages/helpOthers2/helpOthers2.wxss */
+.map{
+  width: 100%;
+  height:500rpx;
+}
+
+.bt{
+  font-size: large;
+}
+.login2-box{
+  font-size: larger;
+  margin: 30rpx;
+}

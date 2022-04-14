@@ -1,0 +1,22 @@
+<!--pages/helpOthers3/helpOthers3.wxml-->
+<view class="map1">
+  <image src="http://a1.qpic.cn/psc?/V50Hxh2S2Tl1fo0VDrH43W2PaE3jKsOq/ruAMsa53pVQWN7FLK88i5pLLERAMAhEWW3dUexKRsiB8YhHTUQpsi6VxR9l87JS*bd50LqmgcjD0AUH*vNR5rNEHl9B9U3OplcHYubKlGGI!/b&ek=1&kp=1&pt=0&bo=OAQkCTgEJAkRECc!&tl=1&vuin=1123043091&tm=1608444000&sce=60-2-2&rf=viewer_311" mode="aspectFill"class="map"></image></view>
+<view class="item">
+  <view class="type">帮我送</view>
+  <view class="info">
+    <view class="fline">
+      <view class="dr">
+        <view>起：生活区12楼底</view>
+        <view>达：6教北202</view>
+      </view>
+      
+    </view>
+    <text>\n</text>
+    <view class="sline">跑腿费：  5元</view>
+    <view class="tline">物品描述： 一本书</view>
+    <view class="foline">截止时间：今晚6点</view>
+  </view>
+</view>
+<view class="phone">
+  <button size="mini" class="but" plain="true">在线联系</button>
+</view>

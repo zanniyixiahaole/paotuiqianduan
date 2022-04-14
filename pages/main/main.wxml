@@ -1,0 +1,14 @@
+<!--pages/main/main.wxml-->
+<view class="logo" >
+  <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171031%2F6053db72857c4d47a240524b35f07ac4.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1617930307&t=a7cf10186b7cce1d4994d021b5141f39"
+  mode="widthFix"  >
+  </image>
+</view>
+<text>\n</text>
+<view>
+<button plain="true"><navigator url="/pages/helpOthers/helpOthers">我帮别人跑腿</navigator></button>
+</view>
+<text>\n</text>
+<view>
+<button plain="true"><navigator url="/pages/helpMeRun/helpMeRun">别人帮我跑腿</navigator></button>
+</view>

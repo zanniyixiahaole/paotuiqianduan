@@ -1,0 +1,60 @@
+/* pages/jiedan/jiedan.wxss */
+
+.item{
+  display: flex;
+  flex-direction:row;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100rpx;
+}
+.type{
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  border: black 1rpx solid;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: larger;
+}
+.tx{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.info{
+  border-radius: 5%;
+  width: 90%;
+  border: solid rgb(212, 212, 212) 3rpx;
+  background: rgb(250, 250, 250);
+  position: relative;
+  left: 5%;
+}
+.fline{
+  display: flex;
+  flex-direction: row;
+  position: relative; 
+  left:20rpx; 
+  margin-top: 20rpx;
+}
+.jiedan{
+  position: relative; 
+  top:90rpx
+}
+.oline{
+  position: relative; 
+  left:20rpx; 
+}
+.lline{
+  position: relative; 
+  left:20rpx; 
+  margin-bottom: 20rpx;
+}
+.dr{
+  width: 70%;
+}
+.bt{
+  height: 70rpx;
+  text-align: center;
+  line-height: 50rpx;
+}

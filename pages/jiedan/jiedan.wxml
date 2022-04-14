@@ -1,0 +1,24 @@
+<!--pages/jiedan/jiedan.wxml-->
+
+<text>\n</text>
+<block wx:for="{{list}}" wx:for-item="items" wx:key="key">
+  <view class="item" >
+    
+    <view class="info">
+      <view class="fline">
+        <view class="dr">
+          <view>起：{{items.start}}</view>
+          <view>达：{{items.destination}}</view>
+          <view>发布者：{{items.userName}}</view>
+        </view>
+        <view class="jiedan"><button class="bt" size="mini" type="primary" data-start="{{items.start}}" data-destination="{{items.destination}}" data-name="{{items.name}}" data-starttime="{{items.starttime}}" data-price="{{items.price}}" data-deadline="{{items.deadline}}" data-id="{{items.id}}" 
+        data-id="{{items.id}}"  
+         bindtap="jiedan">接单</button></view>
+      </view>
+      <text>\n</text>
+      <view class="oline">跑腿费：{{items.price}}</view>
+      <view class="oline">发布时间：{{items.starttime}}</view>
+      <view class="lline">截止时间：{{items.deadline}}</view>
+    </view>
+  </view>
+</block>

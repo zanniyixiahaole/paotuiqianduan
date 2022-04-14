@@ -1,0 +1,137 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/SignIn/SignIn",
+          "pathName": "pages/SignIn/SignIn",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/main/main",
+          "pathName": "pages/main/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/me/me",
+          "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/helpMeRun/helpMeRun",
+          "pathName": "pages/helpMeRun/helpMeRun",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/helpMeRun2/helpMeRun2",
+          "pathName": "pages/helpMeRun2/helpMeRun2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/helpOthers/helpOthers",
+          "pathName": "pages/helpOthers/helpOthers",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/helpOthers3/helpOthers3",
+          "pathName": "pages/helpOthers3/helpOthers3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/dingdan/dingdan",
+          "pathName": "pages/dingdan/dingdan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/dingdan2/dingdan2",
+          "pathName": "pages/dingdan2/dingdan2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/helpOthers2/helpOthers2",
+          "pathName": "pages/helpOthers2/helpOthers2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/jiedan/jiedan",
+          "pathName": "pages/jiedan/jiedan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myjiedan/myjiedan",
+          "pathName": "pages/myjiedan/myjiedan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/start/start",
+          "pathName": "pages/start/start",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/register/register",
+          "pathName": "pages/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "navbar",
+          "pathName": "pages/navbar/navbar",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pay",
+          "pathName": "pages/pay/pay",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "payment",
+          "pathName": "pages/payment/payment",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
