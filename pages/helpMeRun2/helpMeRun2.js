@@ -13,7 +13,8 @@ Page({
     start:'',
     destination:'',
     deadline:new Date().toLocaleTimeString(),
-    checknum:''
+    checknum:'',
+    userID:app.globalData.userID
   },
   priceinput:function(e)
   {
@@ -129,7 +130,7 @@ Page({
   {
     var that = this;
     wx.request({
-      url: 'http://101.35.150.191/user/information',
+      url: 'http://139.224.113.73:7788/information',
       method:"POST",
       data:{
         start:that.data.start,
@@ -185,19 +186,20 @@ Page({
     let that = this
     //console.log(app.globalData.username)
     wx.getStorage({
-      key: 'user',
+      key: 'userID',
       success:function(res){
         
-        let code=res.data.openid
-        console.log(code)
+        let userID=res.data
+        console.log(userID)
         wx.request({
           method:"POST",
           url: 'http://localhost:7788/pay/wxpay', 
           data: {
-            code: code
+            userID:userID,
+            price:"10"
           },
           header: {
-            'content-type': 'application/json' // 默认值
+            'content-type': 'application/x-www-form-urlencoded'
           },
           success: function (res) {
             console.log(res.data);

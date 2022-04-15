@@ -8,23 +8,25 @@ Page({
   wxpay: function(){
     //console.log(app.globalData.username)
     wx.getStorage({
-      key: 'user',
+      key: 'userID',
       success:function(res){
         
-        let code=res.data.openid
-        console.log(code)
+        let userID=res.data
+        console.log(userID)
         wx.request({
           method:"POST",
           url: 'http://localhost:7788/pay/wxpay', 
           data: {
-            code: code
+            userID:userID,
+            price:"10"
           },
           header: {
-            'content-type': 'application/json' // 默认值
+            'content-type': 'application/x-www-form-urlencoded'
           },
           success: function (res) {
             console.log(res.data);
-            var data=res.data;
+            var data=res.data.data;
+            console.log(data);
             wx.requestPayment({
               'timeStamp': data.timeStamp,
               'nonceStr': data.nonceStr,

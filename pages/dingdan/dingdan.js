@@ -7,7 +7,8 @@ Page({
    */
   data: {
     list:[],
-    list1:[]
+    list1:[],
+    userID:app.globalData.userID
   },
       
   onShow()
@@ -15,35 +16,41 @@ Page({
     //console.log(app.globalData.userInfo)
     var that = this;
     wx.request({
-      url: 'http://139.224.113.73:7788/myrelease/mid',
+      url: 'http://localhost:7788/myrelease/mid',
       method:"POST",
       data:{
         name:app.globalData.nickName,
         userID:app.globalData.userID
+      },
+      header: {
+        'content-type': 'application/x-www-form-urlencoded'
       },
       success:function(res)
       {
 
         console.log(res.data);
         that.setData({
-          list:res.data.inforlist1
+          list:res.data.data.myreleasemid
         })
         console.log(that.data.list)
       }
     }),
     wx.request({
-      url: 'http://139.224.113.73:7788/myrelease/end',
+      url: 'http://localhost:7788/myrelease/end',
       method:"POST",
       data:{
         name:app.globalData.nickName,
         userID:app.globalData.userID
+      },
+      header: {
+        'content-type': 'application/x-www-form-urlencoded'
       },
       success:function(res)
       {
 
         console.log(res.data);
         that.setData({
-          list1:res.data.inforlist2
+          list1:res.data.data.myreleaseend
         })
         console.log(that.data.list1)
       }
